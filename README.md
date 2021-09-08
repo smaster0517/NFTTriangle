@@ -9,11 +9,15 @@ yarn add -D tailwindcss@latest postcss@latest autoprefixer@latest
 ```
 yarn dev
 ```
-
 ### Compile & Test
 ```
 npx hardhat compile
 npx hardhat test
+```
+### Deploy to localhost
+```
+npx hardhat node
+npx hardhat run scripts/deploy.js --network localhost
 ```
 
 Try running some of the following tasks:
