@@ -1,6 +1,15 @@
-# Basic Sample Hardhat Project
+## NFT Marketplace
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+### Install dependencies
+```
+yarn add ethers hardhat @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers web3modal @openzeppelin/contracts ipfs-http-client axios
+yarn add -D tailwindcss@latest postcss@latest autoprefixer@latest
+```
+
+### Test
+```
+npx hardhat test
+```
 
 Try running some of the following tasks:
 
@@ -12,10 +21,4 @@ npx hardhat test
 npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
-```
-
-# Install dependencies
-```
-yarn add ethers hardhat @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers web3modal @openzeppelin/contracts ipfs-http-client axios
-yarn add -D tailwindcss@latest postcss@latest autoprefixer@latest
 ```
