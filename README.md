@@ -19,6 +19,10 @@ npx hardhat test
 npx hardhat node
 npx hardhat run scripts/deploy.js --network localhost
 ```
+### Deploy to Mumbai testnet
+```
+npx hardhat run scripts/deploy.js --network mumbai
+```
 
 Try running some of the following tasks:
 
