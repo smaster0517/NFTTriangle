@@ -1,4 +1,4 @@
-## NFT Marketplace
+## NFT Marketplace on Ethereum
 
 ### Install dependencies
 ```
@@ -19,7 +19,7 @@ npx hardhat test
 npx hardhat node
 npx hardhat run scripts/deploy.js --network localhost
 ```
-### Deploy to Mumbai testnet
+### Deploy to testnet
 ```
 npx hardhat run scripts/deploy.js --network mumbai
 ```
